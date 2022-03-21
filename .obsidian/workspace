@@ -1,0 +1,130 @@
+{
+  "main": {
+    "id": "e7b82d1d8c781309",
+    "type": "split",
+    "children": [
+      {
+        "id": "46a2dd6248cd0702",
+        "type": "leaf",
+        "dimension": 52.28531855955678,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Main.md",
+            "mode": "source",
+            "source": true
+          }
+        },
+        "group": "e564dd7a525b85b6"
+      },
+      {
+        "id": "1d2c395ea7114809",
+        "type": "leaf",
+        "dimension": 47.71468144044322,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Main.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "e564dd7a525b85b6"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5534c6a08069e586",
+    "type": "split",
+    "children": [
+      {
+        "id": "473dd7c178c9e68f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56d601f9123d1117",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "15a14862ee3940ff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 248.5
+  },
+  "right": {
+    "id": "217b06f5239c5bca",
+    "type": "split",
+    "children": [
+      {
+        "id": "db58df1132e9b6f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9dc8847f878c118",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ffa40ccfd5294b4e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "46a2dd6248cd0702",
+  "lastOpenFiles": [
+    "Main.md",
+    "papers/DSCMR/DSCMR-zhen.md",
+    "papers/R2GAN/R2GAN-bin_zhu.md",
+    "papers/AMCR/ACMR-bokun_wang.md",
+    "papers/ACMR/ACMR-bokun_wang.md",
+    "templates/paper.md",
+    "utils/Machine Learning.md",
+    "utils/Mathematics Function.md",
+    "utils/Mathematics 1.md",
+    "papers/ACMR/img/acmr_framework.png"
+  ]
+}
