@@ -4,32 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "46a2dd6248cd0702",
+        "id": "a9a1b04cbc99e36d",
         "type": "leaf",
-        "dimension": 52.28531855955678,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Main.md",
+            "file": "utils/Machine Learning.md",
             "mode": "source",
             "source": true
           }
         },
-        "group": "e564dd7a525b85b6"
+        "group": "6ad09865fc21aa51"
       },
       {
-        "id": "1d2c395ea7114809",
+        "id": "6f8beb35522c2425",
         "type": "leaf",
-        "dimension": 47.71468144044322,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Main.md",
+            "file": "utils/Machine Learning.md",
             "mode": "preview",
             "source": true
           }
         },
-        "group": "e564dd7a525b85b6"
+        "group": "6ad09865fc21aa51"
       }
     ],
     "direction": "vertical"
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main.md",
+                "file": "utils/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,36 +93,24 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "ffa40ccfd5294b4e",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "46a2dd6248cd0702",
+  "active": "a9a1b04cbc99e36d",
   "lastOpenFiles": [
+    "utils/Machine Learning.md",
     "Main.md",
     "papers/DSCMR/DSCMR-zhen.md",
-    "papers/R2GAN/R2GAN-bin_zhu.md",
-    "papers/AMCR/ACMR-bokun_wang.md",
-    "papers/ACMR/ACMR-bokun_wang.md",
-    "templates/paper.md",
-    "utils/Machine Learning.md",
     "utils/Mathematics Function.md",
-    "utils/Mathematics 1.md",
-    "papers/ACMR/img/acmr_framework.png"
+    "papers/R2GAN/R2GAN-bin_zhu.md",
+    "papers/ACMR/ACMR-bokun_wang.md",
+    "papers/ACMR/img/acmr_framework.png",
+    "papers/DSCMR/img/dscmr_framework.jpg",
+    "templates/paper.md",
+    "papers/AMCR/ACMR-bokun_wang.md"
   ]
 }

@@ -1,5 +1,5 @@
 # General Details
-[Abstract](https://dl.acm.org/doi/abs/10.1145/3123266.3123326) [PDF File](https://dl.acm.org/doi/pdf/10.1145/3123266.3123326)
+[==Abstract==](https://dl.acm.org/doi/abs/10.1145/3123266.3123326), [==PDF File==](https://dl.acm.org/doi/pdf/10.1145/3123266.3123326)
 ## งานนี้โดยหลักแล้ว
 - พยายามลด Modality Gap โดยการเรียนรู้ผ่าน Representation Learning เพื่อ Project data แต่ละ modal มาบน common feature representation space
 
@@ -22,7 +22,7 @@
 - มี **Feature Projector** สำหรับแต่ละ modal มีหน้าที่ project feature vector จากแต่ละ modal ไปยัง **Common Representation Space** 
 - จากนั้น จะมี **Modality Classifier** เป็น **Discriminator** ที่พยายามแยกว่าแต่ละ **Common Representation Vector** นั้นมาจาก modal ไหนบ้าง ซึ่ง **Feature Projector** ต้องหลอก **Modality Classifier** ให้ได้… เพื่อที่จะ preserve data ใน Representation Vector เลยมี loss สำหรับ Label Prediction ด้วย
 
-# Mathematics Stuff
+# Mathematical Stuff
 ## Objective function
 ซึ่งจาก paper นี้จะทดลองบน text กับ image modal เป็นหลัก
 $$

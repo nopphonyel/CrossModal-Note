@@ -1,5 +1,5 @@
 # General Details
-[Abstract]() [PDF File](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_R2GAN_Cross-Modal_Recipe_Retrieval_With_Generative_Adversarial_Network_CVPR_2019_paper.pdf)
+[==Abstract==](), [==PDF File==](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_R2GAN_Cross-Modal_Recipe_Retrieval_With_Generative_Adversarial_Network_CVPR_2019_paper.pdf)
 
 ## งานนี้โดยหลักแล้ว
 พยายามจะทำ cross modal ระหว่าง Food Image กับ Recipe ที่เป็น Text
@@ -12,19 +12,19 @@
 ### ด้าน Food Retrieval
 -   **Stack Attention Model** โดยเอาสูตรส่วนผสมแปลงเป็น Binary vector แล้วโยนให้ Model แต่ทว่างานนี้ยังไม่ได้แก้ Bug: อาหารบางอย่างมีส่วนผสมเหมือนกันแต่วิธีทำต่างกัน
 -   **Joint Neural Embedding (JNE):** จาก bug งานที่แล้ว เลยแก้โดยเอา cooking procedure เข้าไปด้วย โดยมี bi-directional LSTM encode ส่วนผสม และ Hierarchical LSTM encode cooking procedure นอกจากนี้มีส่วน sematic loss ที่ train โดยให้ model predict category ของอาหาร และดูเหมือนว่าจะสำคัญ    
--   มีการใช้ AdaMine (Adaptive Mining Embedding) โดยใช้ double-triplet learning และ adaptive strategy  (ยังไม่ค่อยแน่ใจว่ามันคืออะไร) สำหรับ informative triplet mining ซึ่งให้ผลดีมาก งานนี้เลย adaptive strategy ด้วย
+-   มีการใช้ **AdaMine** (Adaptive Mining Embedding) โดยใช้ double-triplet learning และ adaptive strategy  (ยังไม่ค่อยแน่ใจว่ามันคืออะไร) สำหรับ informative triplet mining ซึ่งให้ผลดีมาก งานนี้เลย adaptive strategy ด้วย
 
 ### ด้าน Cross-modal GAN
-- [ACMR](papers/ACMR/ACMR-bokun_wang)
-- GXN
-- CM-GANs
+- [**<ins>ACMR</ins>**](papers/ACMR/ACMR-bokun_wang) Modal Discriminator สำหรับทาย modal 1 ตัวและมี Feature projector ที่จะพยายามหลอก Modal Discriminator ให้ได้
+- **GXN** 2 Generator, 2 Discriminator. แต่ละ generator gen features แล้วให้ discriminator แต่ละตัวทายว่า fake/real
+- **CM-GANs**  2 Generator, 2 Discriminator ทั่วๆไปแหละมั้ง
 
 # Framework
 ![[r2gan_framework.jpg]]
 - แต่ละส่วนของ recipe จะเข้าคนละ model แล้วเอามา concat กันเป็น embedding $E$ เพื่อให้มั่นใจว่า embedding ยังคง preserve ข้อมูลไว้ จึงมี Semantic Loss เข้ามาช่วยไว้
 - ส่วน image ก็เอามาผ่าน CNN เพื่อสร้าง Embedding จากนั้นจะมี Discriminator $D_1$ ทาย real fake กับ $D_2$ ทาย modal (ไอเดียคล้าย [ACMR](papers/ACMR/ACMR-bokun_wang)), จากนั้นมี Two-level Ranking Loss มาเพื่อ… ออกแนวตัวช่วยมากกว่า คิดว่าถ้าตัดออก อาจจะยัง work แต่ใช้เวลา train นานขึ้นมากๆ?
 
-# Mathematics Stuff
+# Mathematical Stuff
 ## Objective Function
 ซึ่งมีอยู่ 3 สมการย่อย
 ### $\mathcal{L}_{full}$
@@ -53,8 +53,18 @@ $\gamma,\lambda$ เป็น constant ใช้สำหรับปรับ b
 - **Semantic Loss? $(\mathcal{L}_{sem})$**
 $$\mathcal{L}_{sem}=-\log{\frac{\exp(E_c)}{\sum_i \exp(E_{c_{i}})}}$$
   - $E_c$ คือ Embedding category ($E$ นี้มาจาก modal ไหนก็ได้)
-  - 
+  - ใน paper บอกว่านี่คือ cross entropy loss ดังนั้นใน **```pytorch```** implementation ก็เป็น label ได้เลย
 
-### Generator's Loss function ($\mathcal{L}_{G_{full}}$ )
+### Generator's Loss function $(\mathcal{L}_{G_{full}})$
 $$\mathcal{L}_{G_{Full}}=\mathcal{L}_G + \delta \cdot \mathcal{L}_{recon}$$
 และเช่นกัน $\delta$ เป็น constant สำหรับปรับ balance
+
+### Discriminator's Loss function $(\mathcal{L}_{D1},\mathcal{L}_{D2})$
+คงเป็น loss function แบบ Discriminator ทั่วไป
+
+# Experiments Details
+## Datasets
+ใช้แค่ dataset เดียวคือ **Recipe1M** แต่ว่าเป็นpre-processed Recipe 1M ซึ่ง data จะลดลงมานิดนึง
+## Evaluation Metrics
+- **Median Rank (MedR)**: refers median rank position of true positive for all the testing queries. (Lower is better) ไม่ค่อยเข้าใจความหมายแฮะ
+- **Recall rate at top K (R@K)**: measure the fraction of true positive being ranked at top K returned results (Higher is better) งงๆความหมายนิดหน่อย
