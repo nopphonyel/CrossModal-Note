@@ -9,12 +9,12 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "utils/Machine Learning.md",
+            "file": "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
             "mode": "source",
             "source": true
           }
         },
-        "group": "6ad09865fc21aa51"
+        "group": "df3c511a2d5329ce"
       },
       {
         "id": "6f8beb35522c2425",
@@ -22,12 +22,12 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "utils/Machine Learning.md",
+            "file": "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
             "mode": "preview",
             "source": true
           }
         },
-        "group": "6ad09865fc21aa51"
+        "group": "df3c511a2d5329ce"
       }
     ],
     "direction": "vertical"
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "utils/Machine Learning.md",
+                "file": "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +98,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "a9a1b04cbc99e36d",
   "lastOpenFiles": [
-    "utils/Machine Learning.md",
+    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
     "Main.md",
+    "utils/ml_stuff/component_def.md",
+    "utils/Machine Learning.md",
+    "papers/ACMR/ACMR-bokun_wang.md",
     "papers/DSCMR/DSCMR-zhen.md",
     "utils/Mathematics Function.md",
     "papers/R2GAN/R2GAN-bin_zhu.md",
-    "papers/ACMR/ACMR-bokun_wang.md",
     "papers/ACMR/img/acmr_framework.png",
-    "papers/DSCMR/img/dscmr_framework.jpg",
-    "templates/paper.md",
-    "papers/AMCR/ACMR-bokun_wang.md"
+    "papers/DSCMR/img/dscmr_framework.jpg"
   ]
 }

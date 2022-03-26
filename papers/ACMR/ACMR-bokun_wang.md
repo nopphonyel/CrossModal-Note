@@ -86,7 +86,7 @@ $$
   - **for** $k$ **steps** (ดูเหมือนว่า ปรับพวก feature projector กับ label predictor ไปก่อน $k$ รอบ)
   -  Update parameters $\theta_V$ (Image feature projector), $\theta_T$ (Text feature projector), $\theta_{imd}$ (Label predictor) via **SGD**
     $$ \DeclareMathOperator*{\argmin}{argmin}(\hat{\theta}_V,\hat{\theta}_T, \hat{\theta}_{imd}) = \argmin_{\hat{\theta}_V,\hat{\theta}_T, \hat{\theta}_{imd}}(\mathcal{L}_{emb}(\theta_V,\theta_T, \theta_{imd}) - \mathcal{L}_{adv}(\hat{\theta}_D))$$
-   - Update parameters $\theta_D$ (Modality Classifier) by **ascending its stochastic gradients** through [Gradient Reversal Layer](utils/Machine%20Learning#Special%20Layer%20Definition%20##Gradient%20Reversal%20Layer%20(GRL)) $$
+   - Update parameters $\theta_D$ (Modality Classifier) by **ascending its stochastic gradients** through [Gradient Reversal Layer](component_def.md#Gradient%20Reversal%20Layer%20(GRL)) $$
 \DeclareMathOperator*{\argmax}{argmax} \hat{\theta}_{D} = \argmax_{\theta_{D}}(\mathcal{L}_{emb} (\hat{\theta}_V,\hat{\theta}_T, \hat{\theta}_{imd}) - \mathcal{L}_{adv}(\theta_{D}) )
 $$
 
