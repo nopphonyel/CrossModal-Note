@@ -2,7 +2,7 @@
   "legacyEditor": false,
   "livePreview": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "papers/LipReadTCN/img",
+  "attachmentFolderPath": "utils/ml_stuff/res",
   "showLineNumber": true,
   "spellcheck": true,
   "foldHeading": true,
