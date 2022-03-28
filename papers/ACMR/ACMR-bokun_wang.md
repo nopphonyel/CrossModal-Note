@@ -73,8 +73,8 @@ $$\mathcal{L}_{imd}(\theta_{imd}) = -\frac{1}{n} \sum^n_{i=1}(y_i \cdot (\log(\h
 $$\mathcal{L}_{reg} = \sum^L_{l=1}(||W^l_v||_F + ||W^l_t||_F)$$
   - $L$ คือจำนวน layer ทั้งหมดของ model
   - ใช้สำหรับกัน Over-fitting ตอนนี้คิดว่า function นี้สำหรับ Feature Projector ของทั้ง 2 modal
-  - ใช้ [Frobenius Norm](utils/Mathematics%20Function#Normalization##Frobenius%20Norm) ในการทำ Weight Normalization
-#### Adversarial Loss ($\mathcal{L}_{adv}$)
+  - ใช้ [Frobenius Norm](function_def.md#Normalization##Frobenius%20Norm) ในการทำ Weight Normalization
+#### Adversarial Loss $(\mathcal{L}_{adv})$
 $$
 \mathcal{L}_{adv}=-\frac{1}{n}\sum^{n}_{i=1}(m_i\cdot(\log D(v_i;\theta_D) + log(1-D(t_i;\theta_D)))
 $$

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "utils/ml_stuff/component_def.md",
+            "file": "utils/ml_stuff/transfer_learning_def.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "utils/ml_stuff/component_def.md",
+            "file": "utils/ml_stuff/transfer_learning_def.md",
             "mode": "preview",
             "source": true
           }
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ModelCompression",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "utils/ml_stuff/component_def.md",
+                "file": "utils/ml_stuff/transfer_learning_def.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,15 +103,15 @@
   },
   "active": "a9a1b04cbc99e36d",
   "lastOpenFiles": [
-    "utils/ml_stuff/component_def.md",
-    "papers/R2GAN/R2GAN-bin_zhu.md",
-    "Main.md",
-    "papers/DSCMR/DSCMR-zhen.md",
+    "utils/ml_stuff/transfer_learning_def.md",
     "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
-    "utils/ml_stuff/algorithm_def.md",
-    "utils/Machine Learning.md",
+    "List of papers.md",
     "papers/ACMR/ACMR-bokun_wang.md",
-    "utils/Mathematics Function.md",
-    "papers/ACMR/img/acmr_framework.png"
+    "utils/ml_stuff/component_def.md",
+    "utils/math_stuff/function_def.md",
+    "papers/R2GAN/R2GAN-bin_zhu.md",
+    "papers/DSCMR/DSCMR-zhen.md",
+    "utils/ml_stuff/algorithm_def.md",
+    "utils/Machine Learning.md"
   ]
 }
