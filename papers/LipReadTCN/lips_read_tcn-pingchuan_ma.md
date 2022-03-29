@@ -17,7 +17,7 @@
 
 ### Depthwise Separable TCN
 งานนี้เหมือนจะใช้ Depthwise separable convolution มาแทนที่ Convolution ธรรมดาใน MS-TCN ไอเดียคร่าวๆของ Depthwise Separable TCN คือ จะทำ Convolution แยก channel ก่อน (Depthwise convolution) แล้วค่อยทำ Pointwise (convolution แค่จุดเดียว แต่รวบทุก channel) 
-[อ่านต่อ](utils/ml_stuff/component_def#Separable%20Convolution)
+[อ่านต่อ](Separable%20Convolution.md#Separable%20Convolution)
 
 ### Knowledge Distillation
 เป็นหนึ่งในเทคนิคของการ Transfer learning 

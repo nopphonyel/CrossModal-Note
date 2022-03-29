@@ -1,6 +1,3 @@
-# Gradient Reversal Layer (GRL)
-ตอน forward ก็ปกติดี แต่ตอน backward จะมี -1 มาคูณด้วย
-
 # Separable Convolution
 [==Original Source==](https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728)
 

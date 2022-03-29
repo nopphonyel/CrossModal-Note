@@ -73,7 +73,7 @@ $$\mathcal{L}_{imd}(\theta_{imd}) = -\frac{1}{n} \sum^n_{i=1}(y_i \cdot (\log(\h
 $$\mathcal{L}_{reg} = \sum^L_{l=1}(||W^l_v||_F + ||W^l_t||_F)$$
   - $L$ คือจำนวน layer ทั้งหมดของ model
   - ใช้สำหรับกัน Over-fitting ตอนนี้คิดว่า function นี้สำหรับ Feature Projector ของทั้ง 2 modal
-  - ใช้ [Frobenius Norm](function_def.md#Normalization##Frobenius%20Norm) ในการทำ Weight Normalization
+  - ใช้ [Frobenius Norm](lib/math/norm/Frobenius%20Norm) ในการทำ Weight Normalization
 #### Adversarial Loss $(\mathcal{L}_{adv})$
 $$
 \mathcal{L}_{adv}=-\frac{1}{n}\sum^{n}_{i=1}(m_i\cdot(\log D(v_i;\theta_D) + log(1-D(t_i;\theta_D)))
@@ -86,7 +86,7 @@ $$
   - **for** $k$ **steps** (ดูเหมือนว่า ปรับพวก feature projector กับ label predictor ไปก่อน $k$ รอบ)
   -  Update parameters $\theta_V$ (Image feature projector), $\theta_T$ (Text feature projector), $\theta_{imd}$ (Label predictor) via **SGD**
     $$ \DeclareMathOperator*{\argmin}{argmin}(\hat{\theta}_V,\hat{\theta}_T, \hat{\theta}_{imd}) = \argmin_{\hat{\theta}_V,\hat{\theta}_T, \hat{\theta}_{imd}}(\mathcal{L}_{emb}(\theta_V,\theta_T, \theta_{imd}) - \mathcal{L}_{adv}(\hat{\theta}_D))$$
-   - Update parameters $\theta_D$ (Modality Classifier) by **ascending its stochastic gradients** through [Gradient Reversal Layer](component_def.md#Gradient%20Reversal%20Layer%20(GRL)) $$
+   - Update parameters $\theta_D$ (Modality Classifier) by **ascending its stochastic gradients** through [Gradient Reversal Layer](Gradient%20Reversal.md) $$
 \DeclareMathOperator*{\argmax}{argmax} \hat{\theta}_{D} = \argmax_{\theta_{D}}(\mathcal{L}_{emb} (\hat{\theta}_V,\hat{\theta}_T, \hat{\theta}_{imd}) - \mathcal{L}_{adv}(\theta_{D}) )
 $$
 

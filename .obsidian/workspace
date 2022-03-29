@@ -6,10 +6,11 @@
       {
         "id": "a9a1b04cbc99e36d",
         "type": "leaf",
+        "dimension": 56.29032258064516,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "utils/ml_stuff/transfer_learning_def.md",
+            "file": "lib/ml/Knowledge Distillation.md",
             "mode": "source",
             "source": true
           }
@@ -19,13 +20,10 @@
       {
         "id": "6f8beb35522c2425",
         "type": "leaf",
+        "dimension": 43.70967741935484,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "utils/ml_stuff/transfer_learning_def.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "df3c511a2d5329ce"
       }
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "utils/ml_stuff/transfer_learning_def.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,20 +95,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "a9a1b04cbc99e36d",
+  "active": "6f8beb35522c2425",
   "lastOpenFiles": [
-    "utils/ml_stuff/transfer_learning_def.md",
-    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
-    "List of papers.md",
-    "papers/ACMR/ACMR-bokun_wang.md",
-    "utils/ml_stuff/component_def.md",
-    "utils/math_stuff/function_def.md",
-    "papers/R2GAN/R2GAN-bin_zhu.md",
+    "lib/ml/Knowledge Distillation.md",
+    "lib/ml/Gradient Reversal.md",
+    "lib/ml/Separable Convolution.md",
+    "lib/math/metrics/Mean Average Precision.md",
+    "lib/math/norm/Frobenius Norm.md",
+    "lib/math/sim/Cosine Similarity.md",
     "papers/DSCMR/DSCMR-zhen.md",
-    "utils/ml_stuff/algorithm_def.md",
-    "utils/Machine Learning.md"
+    "lib/math/function_def.md",
+    "papers/ACMR/ACMR-bokun_wang.md",
+    "List of papers.md"
   ]
 }
