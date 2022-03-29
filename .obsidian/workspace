@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "a9a1b04cbc99e36d",
+        "id": "6f8beb35522c2425",
         "type": "leaf",
-        "dimension": 56.29032258064516,
         "state": {
           "type": "markdown",
           "state": {
@@ -15,17 +14,20 @@
             "source": true
           }
         },
-        "group": "df3c511a2d5329ce"
+        "group": "0429711b56726169"
       },
       {
-        "id": "6f8beb35522c2425",
+        "id": "3036c2e977559ad4",
         "type": "leaf",
-        "dimension": 43.70967741935484,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "lib/ml/Knowledge Distillation.md",
+            "mode": "preview",
+            "source": true
+          }
         },
-        "group": "df3c511a2d5329ce"
+        "group": "0429711b56726169"
       }
     ],
     "direction": "vertical"
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "lib/ml/Knowledge Distillation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,19 +98,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "6f8beb35522c2425",
   "lastOpenFiles": [
     "lib/ml/Knowledge Distillation.md",
-    "lib/ml/Gradient Reversal.md",
     "lib/ml/Separable Convolution.md",
+    "papers/R2GAN/R2GAN-bin_zhu.md",
+    "papers/DSCMR/DSCMR-zhen.md",
+    "papers/ACMR/ACMR-bokun_wang.md",
+    "List of papers.md",
+    "lib/ml/Gradient Reversal.md",
     "lib/math/metrics/Mean Average Precision.md",
     "lib/math/norm/Frobenius Norm.md",
-    "lib/math/sim/Cosine Similarity.md",
-    "papers/DSCMR/DSCMR-zhen.md",
-    "lib/math/function_def.md",
-    "papers/ACMR/ACMR-bokun_wang.md",
-    "List of papers.md"
+    "lib/math/sim/Cosine Similarity.md"
   ]
 }

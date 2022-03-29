@@ -98,4 +98,4 @@ $$
 - MS-COCO (Multiple class label)
 
 ## Evaluation Metrics
-- Mean Average Precision
+-[ Mean Average Precision](lib/math/metrics/Mean%20Average%20Precision)

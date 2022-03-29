@@ -37,10 +37,46 @@ Knowledge Distillation มี 4 ประเด็นหลักที่ต้
 
 #### รูปแบบการ Train
 หลักๆแล้ว มีอยู่ 3 แบบ
-1. **Offline distillation** คือการที่ Teacher ได้ Pre-trained มาก่อนแล้ว
-2. **Online distillation** Teacher จะ train ไปพร้อมๆกับ distillation Student
-3. **Self-distillation** Student ก็คือ Teacher เอง
+1. **Offline distillation** 
+   - คือการที่ Teacher ได้ pre-trained มาก่อนแล้ว 
+   - เป็นแบบที่เจอได้ค่อนข้างบ่อย
+2. **Online distillation** 
+	- Teacher จะ train ไปพร้อมๆกับ distillation Student 
+	- แบบ Online จะเอามาแก้ปัญหากรณีที่หา pre-trained Teacher ไม่ได้ หรือขี้เกียจรอ train Teacher เพราะมันใหญ่จั๊ด
+	- ปกติแล้ว นิยม run แบบ parallel เพื่อลดเวลาในการ train
+3. **Self-distillation** 
+	- Student ก็คือตัว Teacher เอง 
+	- ที่ทำแบบนี้เชื่อว่า Knowledge จาก epoch เก่าๆ อาจจะช่วยให้ตัว Student มันดีขึ้นไปได้อีก 
+	- หรืออาจจะเอา Knowledge จาก Intermediate layer ลึกๆ มา train layer ต้นๆ (shallow layer) ก็อาจจะช่วยให้โมเดลดีขึ้นได้เหมือนกัน
 
-#### Model Arch
+#### Student Model Arch
+น่าจะเป็นประเด็นที่เวียนหัวที่สุดแล้ว เพราะมันไม่มีอะไรตายตัวในการออกแบบตัว Student แต่โดยปกติแล้ว จะนิยมอยู่ 5 รูปแบบ
+1. ลดจำนวน layer และ neuron แต่ละ layer ลง
+2. a quantized version of the teacher model (คือไรวะ??)
+3. a smaller network with efficient basic operations
+4. a smaller networks with optimized global network architecture
+5. เหมือน Teacher
+
+แต่ถ้าออกแบบไม่ได้จริง เหมือนจะมีตัวช่วยอยู่บ้าง ยกตัวอย่างเช่น <ins>Neural architecture search</ins> << มันจะช่วยหา architecture ที่เหมาะสมให้ เมื่อเราใส่ Input เป็น Teacher's architecture เข้าไป
 
 #### Distillation Algorithm
+มันก็จะมีอีกหลายวิธีที่จะทำให้ Student ได้เรียนรู้พฤติกรรมของ Teacher ได้
+- **Adversarial Distillation**
+  จะมีการใช้ concept ของ GANs เข้ามาประยุกต์ 
+  - ใช้ Generator ในการทำ Data augmentation 
+  - ใช้ Discriminator ในการแยกแยะว่า Output data หรือ Feature activation ตัวนี้มาจาก Teacher หรือ Student แล้วก็ให้ Student ปรับตัวเองไปเรื่อยๆจน Discriminator แยกไม่ออก
+
+- **Multi-Teacher Distillation**
+  
+  ![[KD_multi_teacher.png]]
+  
+  - เอา Output ของหลายๆ Teacher มาเฉลี่ยกัน แล้ว Minimize loss ระหว่าง Student กับค่าเฉลี่ย Teacher
+  - กำลังคิดว่า เส้น Knowledge Transfer อาจจะมีอีกหลายวิธีนอกจากเฉลี่ย
+
+- **Cross-modal Distillation**
+  
+  ![[KD_cross_modal.png]]
+  
+  - อันนี้ก็น่าจะตามภาพเลย คือข้าม Modal ไปเลย
+  
+  
