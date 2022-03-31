@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lib/ml/Knowledge Distillation.md",
+            "file": "lib/math/Logit.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lib/ml/Knowledge Distillation.md",
+            "file": "lib/math/Logit.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lib/ml/Knowledge Distillation.md",
+                "file": "lib/math/Logit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +103,8 @@
   },
   "active": "6f8beb35522c2425",
   "lastOpenFiles": [
+    "lib/math/Logit.md",
+    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
     "lib/ml/Knowledge Distillation.md",
     "lib/ml/Separable Convolution.md",
     "papers/R2GAN/R2GAN-bin_zhu.md",
@@ -110,8 +112,6 @@
     "papers/ACMR/ACMR-bokun_wang.md",
     "List of papers.md",
     "lib/ml/Gradient Reversal.md",
-    "lib/math/metrics/Mean Average Precision.md",
-    "lib/math/norm/Frobenius Norm.md",
-    "lib/math/sim/Cosine Similarity.md"
+    "lib/math/metrics/Mean Average Precision.md"
   ]
 }

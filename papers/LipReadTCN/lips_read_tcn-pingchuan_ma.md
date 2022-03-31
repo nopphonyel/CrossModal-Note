@@ -16,11 +16,18 @@
 - ShuffleNet v2 (1.0$\times$) มี parameters น้อยกว่า 5 เท่า และ FLOPs น้อยกว่า 12 เท่าเมื่อเทียบกับ ResNet-18
 
 ### Depthwise Separable TCN
-งานนี้เหมือนจะใช้ Depthwise separable convolution มาแทนที่ Convolution ธรรมดาใน MS-TCN ไอเดียคร่าวๆของ Depthwise Separable TCN คือ จะทำ Convolution แยก channel ก่อน (Depthwise convolution) แล้วค่อยทำ Pointwise (convolution แค่จุดเดียว แต่รวบทุก channel) 
+ไอเดียคร่าวๆของ Depthwise Separable TCN คือ จะทำ Convolution แยก channel ก่อน (Depthwise convolution) แล้วค่อยทำ Pointwise (convolution แค่จุดเดียว แต่รวบทุก channel) 
 [อ่านต่อ](Separable%20Convolution.md#Separable%20Convolution)
 
+งานนี้เหมือนจะใช้ Depthwise separable convolution มาแทนที่ Convolution ธรรมดาใน MS-TCN เพื่อลด computation cost และ convolution parameters
+
 ### Knowledge Distillation
-เป็นหนึ่งในเทคนิคของการ Transfer learning 
+ขอเรียกสั้นๆว่า **KD** เป็นหนึ่งในเทคนิคของการ Compress model ที่มีขนาดใหญ่ให้เล็กลง เพื่อลดจำนวน parameter และ computation cost ลง โดยการนำบาง layer ออกหรือลดจำนวน neuron ในบาง layer ลง แต่ model ยังคงมี performance ที่ใกล้เคียงกับของเดิม
+[อ่านต่อ](lib/ml/Knowledge%20Distillation)
+
+นอกจากนี้ งานนี้ได้ย้อนไปดู proof ที่ว่า KD ก็ยังคงมีประโยชน์เหมือนกัน แม้จะมี layer/neuron จำนวนเท่าเดิมก็ตาม เนื่องจาก knowledge ข้าม generation (น่าจะหมายถึง epoch) ก็สามารถนำมาใช้เป็น teacher ให้ generation หลังๆได้
+
+งานนี้ใช้ Born-Again Distillation
 
 # Framework
 
