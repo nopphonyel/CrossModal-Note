@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lib/math/Logit.md",
+            "file": "lib/ml/Knowledge Distillation.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lib/math/Logit.md",
+            "file": "lib/ml/Knowledge Distillation.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lib/math/Logit.md",
+                "file": "lib/ml/Knowledge Distillation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +103,9 @@
   },
   "active": "6f8beb35522c2425",
   "lastOpenFiles": [
-    "lib/math/Logit.md",
-    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
     "lib/ml/Knowledge Distillation.md",
+    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
+    "lib/math/Logit.md",
     "lib/ml/Separable Convolution.md",
     "papers/R2GAN/R2GAN-bin_zhu.md",
     "papers/DSCMR/DSCMR-zhen.md",

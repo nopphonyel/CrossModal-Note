@@ -78,5 +78,15 @@ Knowledge Distillation มี 4 ประเด็นหลักที่ต้
   ![[KD_cross_modal.png]]
   
   - อันนี้ก็น่าจะตามภาพเลย คือข้าม Modal ไปเลย
+
+- **Born-Again Distillation**
+  อยากได้รายละเอียดเพิ่งเติม ลองเข้าไปอ่าน *External PDF Source* Slide หน้าที่ 7 ดูน้ะ มันพูดถึงอะไรอย่างอื่นหลายอย่างมาก
+  
+  [==External PDF Source==](https://www.csc.kth.se/cvap/cvg/rg/materials/christos_001_slides.pdf)
+  
+  จาก *External PDF Source* สรุปได้ดังนี้
+  - **ไอเดีย:** 
+	  - Student มี parameters ที่เหมือนกับ Teacher
+	  - Student outperform Teacher
   
   
