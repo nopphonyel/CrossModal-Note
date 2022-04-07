@@ -41,10 +41,11 @@ $$ \mathcal{J}_1 = \frac{1}{n}||P^TU-Y||_F + ||P^TV-Y||_F$$
 - $V$ เป็น vector รวมของ text representation
 - $Y$ vector ที่รวม label เข้าไว้ด้วยกัน
 - $||?||_F$ คือ [Frobenius Norm](lib/math/norm/Frobenius%20Norm)
-- **เลยคิดว่า (Additional Analysis)** 
-  - $P^TU, P^TV$ คือ การรวม Projection vector เข้ากับแต่ละ Representation vector ของ modal นั้นๆ
-  - $P^T? - Y$ เป็นการหา classification loss
-    -  แสดงว่า vector $P$ ต้องเป็น vector ที่คูณกับ representation ใดๆแล้วออกมาเป็น class ได้เลย
+
+> [!Note]
+> - $P^TU, P^TV$ คือ การรวม Projection vector เข้ากับแต่ละ Representation vector ของ modal นั้นๆ
+> - $P^T? - Y$ เป็นการหา classification loss
+>   - แสดงว่า vector $P$ ต้องเป็น vector ที่คูณกับ representation ใดๆแล้วออกมาเป็น class ได้เลย
 
 #### Common Representation loss $\mathcal{J}_2$
 อันนี้จะค่อนข้างยาวเพราะมี 3 term ย่อยในสมการ (แต่ใน paper มันเขียนยาวไปเลย)

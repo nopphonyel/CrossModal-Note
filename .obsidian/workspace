@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lib/ml/Knowledge Distillation.md",
+            "file": "List of papers.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lib/ml/Knowledge Distillation.md",
+            "file": "List of papers.md",
             "mode": "preview",
             "source": true
           }
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ModelCompression",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lib/ml/Knowledge Distillation.md",
+                "file": "List of papers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,17 +101,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6f8beb35522c2425",
+  "active": "3036c2e977559ad4",
   "lastOpenFiles": [
-    "lib/ml/Knowledge Distillation.md",
-    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
-    "lib/math/Logit.md",
-    "lib/ml/Separable Convolution.md",
+    "List of papers.md",
+    "templates/paper.md",
+    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
     "papers/R2GAN/R2GAN-bin_zhu.md",
+    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
     "papers/DSCMR/DSCMR-zhen.md",
     "papers/ACMR/ACMR-bokun_wang.md",
-    "List of papers.md",
-    "lib/ml/Gradient Reversal.md",
-    "lib/math/metrics/Mean Average Precision.md"
+    "papers/EffectiveLipReadWithNoPain/img/effectiveLipReadNoPainModel.png",
+    "lib/ml/Label Smoothing.md",
+    "lib/ml/Separable Convolution.md"
   ]
 }

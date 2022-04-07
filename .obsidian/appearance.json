@@ -4,7 +4,7 @@
   "translucency": false,
   "cssTheme": "Things",
   "enabledCssSnippets": [
-    "big-math",
-    "color-tag"
+    "color-tag",
+    "big-math"
   ]
 }

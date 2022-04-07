@@ -1,6 +1,7 @@
 # Cross-modal in These day
 อันนี้จะเป็นสรุปรวม paper งานที่เกี่ยวกับ Cross-modal ต่างๆ (ไม่จำกัดคู่ modality) มาไว้รวมกัน จะมีงานเหล่านี้
-- [**Adversarial Cross-Modal Retrieval** by Bokun Wang et al.](papers/ACMR/ACMR-bokun_wang.md) #CrossModalTechniqe #AnyModal
+- [**Adversarial Cross-Modal Retrieval** by Bokun Wang et al.](papers/ACMR/ACMR-bokun_wang.md) #OriginalCrossModalTechniqe #AnyModal
 - [**R2GAN: Cross-modal Recipe Retrieval with Generative Adversarial Network** by Bin Zhu et al.](papers/R2GAN/R2GAN-bin_zhu.md) #InProgress #AppliedOnSpecificField #ImageTextModal
 - [**Deep Supervised Cross-modal Retrieval** by Liangli Zhen et al.](papers/DSCMR/DSCMR-zhen.md) #ImageTextModal 
 - [**Towards Practical Lipreading with Distilled and Efficient Models** by Pingchuan Ma et al.](lips_read_tcn-pingchuan_ma.md) #InProgress #AudioVisualModal
+- [**Learn an Effective Lip Reading Model Without Pains** by Dalu Feng](papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain) #ModelImprovement #AudioVisualModal 
