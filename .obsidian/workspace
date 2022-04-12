@@ -6,10 +6,11 @@
       {
         "id": "6f8beb35522c2425",
         "type": "leaf",
+        "dimension": 53.28719723183391,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "List of papers.md",
+            "file": "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
             "mode": "source",
             "source": true
           }
@@ -19,10 +20,11 @@
       {
         "id": "3036c2e977559ad4",
         "type": "leaf",
+        "dimension": 46.71280276816609,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "List of papers.md",
+            "file": "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "List of papers.md",
+                "file": "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,13 +103,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3036c2e977559ad4",
+  "active": "6f8beb35522c2425",
   "lastOpenFiles": [
+    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
+    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
     "List of papers.md",
     "templates/paper.md",
-    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
     "papers/R2GAN/R2GAN-bin_zhu.md",
-    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
     "papers/DSCMR/DSCMR-zhen.md",
     "papers/ACMR/ACMR-bokun_wang.md",
     "papers/EffectiveLipReadWithNoPain/img/effectiveLipReadNoPainModel.png",
