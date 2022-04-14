@@ -91,4 +91,61 @@ $$
 - สุ่มตัดให้เหลือขนาด 88x88
 - มีการทำ Variable-length augmentation เหมือนกับงาน 21
 
-## Evaluation Metrics
+## Result
+งานนี้ใช้ Eval metrics คือ Accuracy ของการ classify คำจาก Video Sequence
+
+### 1. บน LRW Dataset
+**ตารางที่ 1**: Train บน *LRW* Dataset
+
+Method | Top-1 Acc. %
+---|---
+3D-CNN | 61.1
+Seq-to-Seq  | 76.2
+ResNet34 + BLSTM | 83.0
+ResNet34 + BGRU | 83.4
+2-stream 3D-CNN + BLSTM | 84.1
+ResNet18 + BLSTM | 84.3
+ResNet18 + BGRU + Cutout | 85.0
+ResNet18 + MS-TCN | 85.3
+
+**ตารางที่ 1.1**: เอา ResNet18 + MS-TCN มาทำ KD ต่อ
+
+Method | Top-1 Acc. %
+---|---
+ResNet18 + MS-TCN - Teacher| 85.3
+ResNet18 + MS-TCN - Student 1 | 87.4
+ResNet18 + MS-TCN - Student 2 | 87.8
+ResNet18 + MS-TCN - Student 3 | 87.9
+ResNet18 + MS-TCN - Student 4 | 87.7
+Ensemble | **88.5**
+
+### 2. บน LRW-1000 Dataset
+
+**ตารางที่ 2**: Train บน *LRW-1000* Dataset
+
+Method | Top-1 Acc. %
+---|---
+ResNet34 + DenseNet52 + ConvLSTM | 36.9
+ResNet34 + BLSTM | 38.2
+ResNet18 + BGRU | 38.6
+ResNet18 + MS-TCN | 41.4
+ResNet18 + BGRU + Cutout | 45.2 [^1]
+
+[^1]:งานนี้เอาใบหน้าทั้งหน้าเข้าไป Train model ซึ่งไม่ใช่ Public dataset
+
+**ตารางที่ 2.1**: เอา ResNet18 + MS-TCN มาทำ KD ต่อ
+
+Method | Top-1 Acc. %
+---|---
+ResNet18 + MS-TCN - Teacher | 43.2
+ResNet18 + MS-TCN - Student 1 | **45.3**
+ResNet18 + MS-TCN - Student 2 | 44.7
+Ensemble | **46.6**
+
+### สรุปผลการทดลอง
+- จากตารางทั้ง 2 ในนี้ไม่ได้บอกว่าทำ Ensemble แบบไหน ต้องไปตามอ่านงานที่ [14]
+- ถ้าให้สรุป สิ่งเหล่านี้ช่วยให้สามารถเอาชนะ State-of-the-art ได้
+	- การทำ KD
+	- ลด Parameter ด้วยการใช้ Depthwise convolution
+	- การทำ Ensemble
+- จุดที่น่าสนใจอีกอย่างคือ **ResNet18** <ins>ทำงานได้ดีกว่า</ins> **ResNet34** ทั่ง 2 dataset มีความเป็นไปได้เนื่องจาก Parameter ที่น้อยกว่าทำให้มีความ Generalize มากกว่า

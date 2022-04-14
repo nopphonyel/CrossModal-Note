@@ -8,12 +8,8 @@
         "type": "leaf",
         "dimension": 53.28719723183391,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         },
         "group": "0429711b56726169"
       },
@@ -22,12 +18,8 @@
         "type": "leaf",
         "dimension": 46.71280276816609,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         },
         "group": "0429711b56726169"
       }
@@ -85,7 +77,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,15 +96,15 @@
   },
   "active": "6f8beb35522c2425",
   "lastOpenFiles": [
-    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
-    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
+    "lib/ml/Untitled.md",
+    "lib/ml/Separable Convolution.md",
+    "lib/ml/Knowledge Distillation.md",
+    "lib/ml/Gradient Reversal.md",
+    "lib/ml/Label Smoothing.md",
     "List of papers.md",
     "templates/paper.md",
-    "papers/R2GAN/R2GAN-bin_zhu.md",
+    "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
     "papers/DSCMR/DSCMR-zhen.md",
-    "papers/ACMR/ACMR-bokun_wang.md",
-    "papers/EffectiveLipReadWithNoPain/img/effectiveLipReadNoPainModel.png",
-    "lib/ml/Label Smoothing.md",
-    "lib/ml/Separable Convolution.md"
+    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md"
   ]
 }

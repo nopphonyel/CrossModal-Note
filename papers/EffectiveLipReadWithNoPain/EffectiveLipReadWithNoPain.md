@@ -16,7 +16,7 @@
 
 # Framework
 
-![[effectiveLipReadNoPainModel.png]]
+![[effectiveLipReadNoPainModel.png|460]]
 
 ส่วน Front-end ของ Paper นี้เป็น ResNet-18 ที่มีการปรับเปลี่ยนบางอย่าง
 - 2D Convolution ใน layer แรกเปลี่ยนไปเป็น &rarr;  **3D Convolution** ด้วย Kernel 5$\times$ 7 $\times$ 7 
