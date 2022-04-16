@@ -1,4 +1,6 @@
-# General Details
+# **Towards Practical Lipreading with Distilled and Efficient Models** 
+by [Pingchuan Ma](https://arxiv.org/search/cs?searchtype=author&query=Ma%2C+P), [Brais Martinez](https://arxiv.org/search/cs?searchtype=author&query=Martinez%2C+B), [Stavros Petridis](https://arxiv.org/search/cs?searchtype=author&query=Petridis%2C+S), [Maja Pantic](https://arxiv.org/search/cs?searchtype=author&query=Pantic%2C+M)
+
 [==Abstract==](https://arxiv.org/abs/2007.06504v3), [==PDF File==](https://arxiv.org/pdf/2007.06504v3.pdf), [==Code Repository==](https://github.com/mpc001/Lipreading_using_Temporal_Convolutional_Networks)
 
 ## งานนี้โดยหลักแล้ว

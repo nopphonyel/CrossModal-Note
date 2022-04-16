@@ -8,8 +8,12 @@
         "type": "leaf",
         "dimension": 53.28719723183391,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
+            "mode": "source",
+            "source": true
+          }
         },
         "group": "0429711b56726169"
       },
@@ -18,8 +22,12 @@
         "type": "leaf",
         "dimension": 46.71280276816609,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
+            "mode": "preview",
+            "source": true
+          }
         },
         "group": "0429711b56726169"
       }
@@ -48,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#OriginalCrossModalTechniqe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +105,15 @@
   },
   "active": "6f8beb35522c2425",
   "lastOpenFiles": [
-    "lib/ml/Untitled.md",
-    "lib/ml/Separable Convolution.md",
-    "lib/ml/Knowledge Distillation.md",
-    "lib/ml/Gradient Reversal.md",
-    "lib/ml/Label Smoothing.md",
-    "List of papers.md",
-    "templates/paper.md",
+    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
     "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
+    "papers/Sep-Stereo/Sep-Stereo.md",
+    "papers/TheVisualMicrophone/TheVisualMicrophone.md",
+    "List of papers.md",
     "papers/DSCMR/DSCMR-zhen.md",
-    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md"
+    "papers/ACMR/ACMR-bokun_wang.md",
+    "papers/R2GAN/R2GAN-bin_zhu.md",
+    "lib/ml/Untitled.md",
+    "lib/ml/Separable Convolution.md"
   ]
 }
