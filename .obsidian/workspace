@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
+            "file": "decision_log/Thesis Decision Log.md",
             "mode": "source",
             "source": true
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
+            "file": "decision_log/Thesis Decision Log.md",
             "mode": "preview",
             "source": true
           }
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OriginalCrossModalTechniqe",
+                "query": "ACMR",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 302.5
   },
   "right": {
     "id": "217b06f5239c5bca",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
+                "file": "decision_log/Thesis Decision Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,15 +105,15 @@
   },
   "active": "6f8beb35522c2425",
   "lastOpenFiles": [
-    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
+    "decision_log/Thesis Decision Log.md",
+    "List of papers.md",
+    "papers/ACMR/ACMR-bokun_wang.md",
+    "papers/ACMR/ACMR-bokun_wang 1.md",
+    "papers/ADC_SSL/ADC_SSL.md",
     "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
+    "templates/paper.md",
     "papers/Sep-Stereo/Sep-Stereo.md",
     "papers/TheVisualMicrophone/TheVisualMicrophone.md",
-    "List of papers.md",
-    "papers/DSCMR/DSCMR-zhen.md",
-    "papers/ACMR/ACMR-bokun_wang.md",
-    "papers/R2GAN/R2GAN-bin_zhu.md",
-    "lib/ml/Untitled.md",
-    "lib/ml/Separable Convolution.md"
+    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md"
   ]
 }

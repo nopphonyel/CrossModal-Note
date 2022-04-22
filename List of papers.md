@@ -18,3 +18,7 @@
 งานจากด้านล่างนี้เอามาจาก Survey Paper ซึ่งคิดว่าค่อนข้างเหมาะสมกับการศึกษาพวกคำเฉพาะทาง หรืออาจจะมีประโยชน์กับการ Implement อยู่บ้าง
 - [**The Visual Microphone: Passive Recovery of Sound from Video** by Abe Davis et al.](papers/TheVisualMicrophone/TheVisualMicrophone) #InProgress 
 - [**Sep-Stereo: Visually Guided Stereophonic Audio Generation by Associating Source Separation** by Hang Zhou et al.](papers/Sep-Stereo/Sep-Stereo.md) #CodeAvailable #InProgress 
+
+#### I found by myself
+ งานพวกนี้เกิดจากการหาเอง เนื่องจากความสงสัยว่าไอเดียที่คิดไว้ มีใครเคยทำแล้วมั้ย
+ - [**Cross-modal Self-Supervised Learning for Lip Reading: When Contrastive Learning meets Adversarial Training** by Changchong Sheng et al.](ADC_SSL.md)
