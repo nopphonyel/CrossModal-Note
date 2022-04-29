@@ -12,3 +12,6 @@
 		- Compare the performance of many adversarial technique (GANs stuff also included) ก็อาจจะเอาพวก GANs, CGANs, CycleGANs, AAE, บลาๆ มาเปรียบเทียบกัน เพราะว่ายังไม่เห็นงานไหนที่เปรียบเทียบหลายๆ Adversarial Technique อย่างจริงจัง 
 			- Experiment Design อาจจะต้องขอเวลาในการออกแบบเพิ่ม เพราะยังไม่แน่ใจว่าจะเอาอะไรเป็น Baseline บ้าง
 ### Short-note จากการคุยกัน
+- แนะนำให้ไปทำ KD บน code [WGAN-Recon ของฉันเอง](https://github.com/nopphonyel/WGAN-ImageRecon) 
+	- Dataset ไม่ต้องเพิ่มแล้ว เอาแค่ fMRI-HC
+	- Parameter อยากให้ลดลงสัก 10% แต่ Performance ใกล้เคียงเดิมมากๆ

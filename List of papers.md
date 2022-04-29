@@ -21,4 +21,4 @@
 
 #### I found by myself
  งานพวกนี้เกิดจากการหาเอง เนื่องจากความสงสัยว่าไอเดียที่คิดไว้ มีใครเคยทำแล้วมั้ย
- - [**Cross-modal Self-Supervised Learning for Lip Reading: When Contrastive Learning meets Adversarial Training** by Changchong Sheng et al.](ADC_SSL.md)
+ - [**Cross-modal Self-Supervised Learning for Lip Reading: When Contrastive Learning meets Adversarial Training** by Changchong Sheng et al.](ADC_SSL.md) #InProgress 

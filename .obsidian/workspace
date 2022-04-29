@@ -6,11 +6,11 @@
       {
         "id": "6f8beb35522c2425",
         "type": "leaf",
-        "dimension": 47.598566308243726,
+        "dimension": 35.07142857142857,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "decision_log/Thesis Decision Log.md",
+            "file": "meeting_log/Meeting Log.md",
             "mode": "source",
             "source": true
           }
@@ -20,11 +20,11 @@
       {
         "id": "3036c2e977559ad4",
         "type": "leaf",
-        "dimension": 52.401433691756274,
+        "dimension": 64.92857142857143,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "decision_log/Thesis Decision Log.md",
+            "file": "meeting_log/Meeting Log.md",
             "mode": "preview",
             "source": true
           }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 244.5107650756836
   },
   "right": {
     "id": "217b06f5239c5bca",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "decision_log/Thesis Decision Log.md",
+                "file": "meeting_log/Meeting Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,17 +103,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3036c2e977559ad4",
+  "active": "6f8beb35522c2425",
   "lastOpenFiles": [
-    "decision_log/Thesis Decision Log.md",
     "meeting_log/Meeting Log.md",
     "List of papers.md",
-    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
+    "lib/ml/Knowledge Distillation.md",
     "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
-    "papers/DSCMR/DSCMR-zhen.md",
-    "papers/R2GAN/R2GAN-bin_zhu.md",
-    "papers/ACMR/ACMR-bokun_wang.md",
-    "papers/TheVisualMicrophone/TheVisualMicrophone.md",
-    "decision_log/res/exp01_eval_pixelwise_mnist.png"
+    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
+    "decision_log/Thesis Decision Log.md",
+    "papers/ADC_SSL/ADC_SSL.md",
+    "lib/math/norm/Frobenius Norm.md",
+    "lib/math/res/math_logit.png",
+    "lib/math/sim/Cosine Similarity.md"
   ]
 }
