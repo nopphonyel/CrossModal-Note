@@ -1,16 +1,50 @@
 # Decision Log
 จัดเรียงลำดับตาม Recent
+## 2022-04-
+
+## 2022-04-26
+### AutoEncoder-Experiment 01 Results
+**Model Objective ในการทดลอง**
+- AE + Dis(recon/real)
+- AE + Dis(recon/real) + 0.5PixelWise
+- AE + Dis(recon+real/real+real)
+- AE + Dis(recon+real/real+real) + 0.5PixelWise
+
+![[exp01_eval_pixelwise_mnist.png|500]]
+
+**Discussion**
+จะเห็นได้ว่า Discriminator ทำให้ AutoEncoder  พยายามที่จะ Gen รูปที่แยกไม่ออกจนเกินไป โดยไม่สนเรื่องการทำ Encoding แล้ว ทำให้ค่า Loss สูงขึ้นในตอนหลังอย่างมาก 
+
+**What's Next**
+- ถ้าลองใช้ Discriminator ออกแนว Regularizer จะดีขึ้นมั้ย โดยการให้ PixelWise loss ยังคงมี Coefficient เป็น 1 เหมือนเดิม แต่ Discriminator จะเป็น 0.1, 0.2 อะไรทำนองนี้
+
+### AutoEncoder-Experiment 02 Results
+**Model Objective**
+- AE + PixelWise + 0.1Dis(recon/real)
+- AE + PixelWise + 0.2Dis(recon/real)
+- AE + PixelWise + 0.1Dis(recon+real/real+real)
+- AE + PixelWise + 0.2Dis(recon+real/real+real)
+
+![[exp02_eval_pixelwise_mnist.png|500]]
+
+**Discussion**
+จากกราฟ พวก Objective function ที่ Coefficient ของ Discriminator term ค่อนข้างต่ำ จะมีแนวโน้มที่ loss ต่ำด้วย แสดงว่า Discriminator ตอนนี้ถ้าให้มาใช้ปรับ AE ไวไป มันอาจจะทำให้แย่กว่าเดิม 
+
+**What's Next**
+- ลองลด Coefficient ของ Discriminator ลงอีก
+- หรืออาจจะลองให้ AE train ไปก่อนสักพัก จากนั้นค่อยเริ่ม train Discriminator 
 
 ## 2022-04-21 to 2022-04-22
 เนื่องจากว่า ที่คิดไว้ มันไม่ตรงกัน ดังนั้นเลยขอทำ Experiment นิดหน่อยว่า Auto-encoder with Discriminator ของเรามัน work มั้ย
 
-Experiment นี้จะใช้ Dataset MNIST เป็นหลัก
-
-Model | Some Metrics
---- | ---
-**AE** + **Dis**(recon or real) | ??
-**AE** + **Dis**(recon+real or real+real) | ??
-**AE** + **Dis**(latent or Normal Dist) | ??
+### AutoEncoder-Experiment Details
+- Dataset: MNIST
+- Model
+	- **AE** + **Dis**(recon or real)
+	- **AE** + **Dis**(recon+real or real+real)
+	- **AE** + **Dis**(latent or Normal Dist)
+	- **AE** + **Dis**(All input type) + $\alpha \cdot$**PixelWise**
+- Metrics: Pixel wise loss 2(MSE)
 
 
 ## 2022-04-20

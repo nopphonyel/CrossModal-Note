@@ -6,7 +6,7 @@
       {
         "id": "6f8beb35522c2425",
         "type": "leaf",
-        "dimension": 53.28719723183391,
+        "dimension": 47.598566308243726,
         "state": {
           "type": "markdown",
           "state": {
@@ -20,7 +20,7 @@
       {
         "id": "3036c2e977559ad4",
         "type": "leaf",
-        "dimension": 46.71280276816609,
+        "dimension": 52.401433691756274,
         "state": {
           "type": "markdown",
           "state": {
@@ -103,17 +103,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6f8beb35522c2425",
+  "active": "3036c2e977559ad4",
   "lastOpenFiles": [
     "decision_log/Thesis Decision Log.md",
+    "meeting_log/Meeting Log.md",
     "List of papers.md",
-    "papers/ACMR/ACMR-bokun_wang.md",
-    "papers/ACMR/ACMR-bokun_wang 1.md",
-    "papers/ADC_SSL/ADC_SSL.md",
+    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md",
     "papers/LipReadTCN/lips_read_tcn-pingchuan_ma.md",
-    "templates/paper.md",
-    "papers/Sep-Stereo/Sep-Stereo.md",
+    "papers/DSCMR/DSCMR-zhen.md",
+    "papers/R2GAN/R2GAN-bin_zhu.md",
+    "papers/ACMR/ACMR-bokun_wang.md",
     "papers/TheVisualMicrophone/TheVisualMicrophone.md",
-    "papers/EffectiveLipReadWithNoPain/EffectiveLipReadWithNoPain.md"
+    "decision_log/res/exp01_eval_pixelwise_mnist.png"
   ]
 }
